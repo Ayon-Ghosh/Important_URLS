@@ -1,0 +1,29 @@
+clustering good read
+
+https://www.analyticsvidhya.com/blog/2019/05/beginners-guide-hierarchical-clustering/
+
+Working with Image
+
+Refer in order:
+
+1: 
+https://www.dataquest.io/blog/tutorial-colors-image-clustering-python/
+2:
+https://www.pythoninformer.com/python-libraries/numpy/numpy-and-images/
+3:
+https://www.pythonforbeginners.com/gui/how-to-use-pillow
+4:
+https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.htmlss
+The below are additionals
+https://stackoverflow.com/questions/7762948/how-to-convert-an-rgb-image-to-numpy-array
+
+https://www.geeksforgeeks.org/addition-blending-images-using-opencv-python/
+
+https://stackoverflow.com/questions/384759/how-to-convert-a-pil-image-into-a-numpy-array
+
+
+Generate Test Dataset
+
+make_blob
+
+https://machinelearningmastery.com/generate-test-datasets-python-scikit-learn/

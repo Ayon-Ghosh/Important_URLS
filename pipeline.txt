@@ -1,0 +1,48 @@
+Jaga reference:
+https://www.kaggle.com/jbanerje/heart-disease-detailed-investigation
+
+
+Pipeline:
+
+https://www.youtube.com/watch?v=6zk6uQSuXqs
+
+https://www.youtube.com/watch?v=BFaadIqWlAg
+
+https://towardsdatascience.com/custom-transformers-and-ml-data-pipelines-with-python-20ea2a7adb65
+
+method chaining in pipeline:
+https://tomaugspurger.github.io/method-chaining.html
+pipeline:
+
+https://www.youtube.com/watch?v=v1kMoh2IAmY
+
+total model:
+https://hackernoon.com/deploy-a-machine-learning-model-using-flask-da580f84e60c
+
+https://www.toptal.com/python/python-machine-learning-flask-example
+
+https://towardsdatascience.com/how-to-easily-deploy-machine-learning-models-using-flask-b95af8fe34d4
+
+https://www.datacamp.com/community/tutorials/machine-learning-models-api-python
+
+https://github.com/pratos/flask_api/blob/master/notebooks/ML%2BModels%2Bas%2BAPIs%2Busing%2BFlask.md
+
+https://www.kaggle.com/abhishm/titanic-with-sklearn-pipeline
+
+https://www.dataquest.io/blog/kaggle-fundamentals/
+
+
+https://www.kaggle.com/jmargni/titanic-full-pipeline
+
+debugging a pipeline:
+
+https://stackoverflow.com/questions/34802465/sklearn-is-there-any-way-to-debug-pipelines
+https://www.codementor.io/@bruce3557/beautiful-machine-learning-pipeline-with-scikit-learn-uiqapbxuj
+
+pipeline and deployment
+
+https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
+
+https://towardsdatascience.com/kaggle-titanic-machine-learning-model-top-7-fa4523b7c40
+
+https://medium.com/@mehulved1503/applying-tools-of-machine-learning-to-predict-passenger-survival-on-the-titanic-7c88fe62a4d3

@@ -1,0 +1,66 @@
+Exponential moving avg
+
+https://www.youtube.com/watch?v=xAXm_ruoMj8
+
+Time Series Eureka
+
+https://www.youtube.com/watch?v=e8Yw4alG16Q
+
+Code Basics:
+
+https://www.youtube.com/watch?v=r0s4slGHwzE&list=PLeo1K3hjS3uvMADnFjV1yg6E5nVU4kOob
+
+ARIMA
+
+https://www.youtube.com/watch?v=e8Yw4alG16Q
+
+https://www.youtube.com/watch?v=D9y6dcy0xK8
+
+Unit root and DF:
+This unit root is best
+https://www.youtube.com/watch?v=Aw77aMLj9uM
+Not so good
+https://www.youtube.com/watch?v=jAa8Wu3pwOE
+
+The whole series:
+Revise this whole series this is best
+https://www.youtube.com/watch?v=UQQHSbeIaB0&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3
+
+ACF Vs PACF
+
+https://www.youtube.com/watch?v=DeORzP0go5I
+
+AR
+
+https://www.youtube.com/watch?v=5-2C4eO4cPQ
+
+MA:
+
+https://www.youtube.com/watch?v=voryLhxiPzE
+
+ARIMA
+
+https://www.youtube.com/watch?v=3UmyHed0iYE
+
+Parameters of ACF
+
+https://www.statsmodels.org/dev/generated/statsmodels.tsa.stattools.acf.html
+
+Parameters of ADF:
+
+https://www.statsmodels.org/dev/generated/statsmodels.tsa.stattools.adfuller.html
+
+The Akaike Information Critera (AIC) is a widely used measure of a statistical model. It basically quantifies 1) the goodness of fit, and 2) the simplicity/parsimony, of the model into a single statistic. When comparing two models, the one with the lower AIC is generally “better
+
+Future Read
+
+https://towardsdatascience.com/basic-time-series-analysis-and-trading-strategy-with-bitcoin-price-data-1a8f1a30f11
+
+Exponential decay moving average
+https://tedboy.github.io/pandas/computation/computation5.html
+
+Complete course Georgia tech
+
+https://www.youtube.com/watch?v=31ng0uLqfhc&list=PL_onPhFCkVQghJC-KQkUNvkAGbriARyfX
+
+https://towardsdatascience.com/time-series-in-python-exponential-smoothing-and-arima-processes-2c67f2a52788

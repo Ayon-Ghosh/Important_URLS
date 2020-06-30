@@ -1,0 +1,77 @@
+practise:
+
+https://www.learnpython.org/en/Loops
+
+Nested loops
+
+https://www.digitalocean.com/community/tutorials/how-to-construct-for-loops-in-python-3
+
+Number patterns
+
+https://www.digitalocean.com/community/tutorials/how-to-construct-for-loops-in-python-3
+
+https://www.youtube.com/watch?v=0PkIvXfP3ew
+
+https://www.youtube.com/watch?v=VKJNLp5ZKb4
+
+
+https://www.geeksforgeeks.org/programs-printing-pyramid-patterns-python/
+
+
+
+
+
+
+string function:
+
+
+
+https://thomas-cokelaer.info/tutorials/python/module_re.html--------------------done 9/8
+
+https://stackoverflow.com/questions/30544912/replace-in-string-based-on-function-ouput -----done 9/8
+
+https://github.com/diwakarkumarind/Module5/blob/master/Module5_CaseStudy1_Q6_Ans.py
+
+programming excercise
+https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%202.md
+
+
+How to add header to a df
+
+Cov = pd.read_csv("path/to/file.txt", sep='\t')
+Frame=pd.DataFrame([Cov], columns = ["Sequence", "Start", "End", "Coverage"])
+Frame.to_csv("path/to/file.txt", sep='\t')
+
+https://www.geeksforgeeks.org/python-pandas-split-strings-into-two-list-columns-using-str-split/
+
+https://cmdlinetips.com/2018/11/how-to-split-a-text-column-in-pandas/
+
+https://stackoverflow.com/questions/41968732/set-order-of-columns-in-pandas-dataframe/41968825
+
+
+https://www.geeksforgeeks.org/working-csv-files-python/
+
+https://realpython.com/python-csv/
+
+https://stackoverflow.com/questions/40703099/how-to-filter-a-csv-file-without-pandas-best-substitute-for-pandas-in-pythonis
+
+https://stackoverflow.com/questions/24641894/making-objects-from-a-csv-file-python
+
+https://github.com/diwakarkumarind/Python_Module3
+
+class Employee:
+def __init__(self, fname, lname, eid, dept, title):
+    self.__firstName = fname
+    self.__lastName = lname
+    self.__employeeID = int(eid)
+    self.__department = int(dept)
+    self.__title = title
+I was able to figure this out. I opened the file and then read a line from it, stripping the \n and splitting my data. I used a while loop to keep reading lines, as long as it wasn't an empty line, and appended it to my empty list. I also had to split the first indexed item as it was first and last name together in the same string and I needed them separate.
+
+def readFile(employees):
+    with open("employees.csv", "r") as f:
+        line = f.readline().strip().split(",")
+        while line != [' ']:
+            line = line[0].split(" ") + line[1:]
+            employees.append(Employee(line[0], line[1], line[2], line[3], line[4]))
+            line = f.readline().strip().split(",")

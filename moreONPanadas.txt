@@ -1,0 +1,128 @@
+Difference between Apply/ Map/ applymap:
+
+https://stackoverflow.com/questions/19798153/difference-between-map-applymap-and-apply-methods-in-pandas
+
+Groupby functions:
+
+http://www.pybloggers.com/2018/12/python-pandas-groupby-tutorial/
+
+Numpy excercices
+
+https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises.md
+
+edureka python solutions
+
+https://github.com/maneeshd/Edureka-Mastering-Python-Assignments
+
+https://github.com/donigian/Data-Analysis-with-Python/blob/master/Intro%20to%20Pandas.ipynb
+
+https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualisation-r-python/tutorial-data-manipulation-numpy-pandas-python/tutorial/ -----done 9/8
+
+http://www.datasciencemadesimple.com/get-maximum-value-column-python-pandas/
+
+https://www.geeksforgeeks.org/drop-rows-from-the-dataframe-based-on-certain-condition-applied-on-a-column/
+
+groupby:
+
+https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/
+
+Axis - 
+
+https://www.youtube.com/watch?v=PtO3t6ynH-8
+
+axis = 0: all rows for a specific column or all rows of all columns as define
+for example: df.drop(2,axis=0) meaning droping all columns of row 2
+df.mean(axis=0) ----mean/avg of all rows of each column
+
+df.drop('conuntry',axis =1) means drop all rows of column name country
+
+df.mean(axis=1)--- mean/avg of all columns of each row 
+
+axis =0 move across all left to right going down by each column ---
+axis = 0 can be also written as axis='index'
+
+axis 1 = move top to down going across (left to right) all columns 
+axis =1 can be also written as axis='columns'
+
+Pandas - entire series:
+
+https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y -----done 9/8
+
+Matplotlib:
+line styles
+https://www.youtube.com/watch?v=qErBw-R2Ybk-----done 9/8
+MaxNLocator
+
+markers
+https://www.youtube.com/watch?v=-gcl4z5qcJc
+
+Python plot two histograms
+https://www.youtube.com/watch?v=X9n2iOn6XEY
+
+define error bar
+https://www.youtube.com/watch?v=xhizVO9SPjU
+
+
+
+https://plot.ly/matplotlib/line-charts/
+
+
+# bar charts
+https://www.youtube.com/watch?v=iedmZlFxjfA
+https://www.youtube.com/watch?v=uLSvF15-UbA
+
+matplotlib - tutorial series
+
+https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
+video 3 - it though Bin better here
+
+keeping video 7-8-9 for later
+
+Matplotlib Tutorial 
+
+https://www.youtube.com/watch?v=UO98lJQ3QGI&list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_
+
+Data Visualizations 
+
+https://pythonprogramming.net/matplotlib-intro-tutorial/
+
+bar value of each bars
+https://stackoverflow.com/questions/30228069/how-to-display-the-value-of-the-bar-on-each-bar-with-pyplot-barh
+https://www.youtube.com/watch?v=6bHUzjjqTRQ
+https://stackoverflow.com/questions/30228069/how-to-display-the-value-of-the-bar-on-each-bar-with-pyplot-barh
+
+ticks
+https://www.youtube.com/watch?v=dkWtr8AJOCM
+
+fig, save fig
+
+https://www.youtube.com/results?search_query=Python+Basics+Matplotlib
+
+https://pythonprogramming.net/matplotlib-intro-tutorial/
+Python Basics Matplotlib Multiple Plots
+
+https://www.youtube.com/watch?v=5jf3CtfU0Vg
+
+Python Basics Matplotlib Subplot Adjust Method
+
+https://www.youtube.com/watch?v=eUXxk9s23Bw
+
+Python Basics Matplotlib Pyplot Figure & Axis Methods
+
+https://www.youtube.com/watch?v=YGlTUKcMyW4
+
+Python Basics Matplotlib Pyplot Bar Horizontal Chart
+
+
+playlist 201-300 (263 - starts matplotlib)
+https://www.youtube.com/watch?v=HovBlhhecTQ
+
+Data school
+
+dummy variable 
+
+https://www.youtube.com/watch?v=0s_1IsROgDc
+
+as type category, memory usage, and logical categoryies
+
+https://www.youtube.com/watch?v=wDYDYGyN_cw

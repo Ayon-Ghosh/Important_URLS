@@ -1,0 +1,3 @@
+https://www.programcreek.com/python/example/91149/sklearn.model_selection.StratifiedShuffleSplit
+
+https://blog.usejournal.com/creating-an-unbiased-test-set-for-your-model-using-stratified-sampling-technique-672b778022d5

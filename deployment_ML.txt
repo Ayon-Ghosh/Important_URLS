@@ -1,0 +1,92 @@
+
+
+session.pop("user",None)
+
+Flask:
+
+step 0:
+
+https://www.youtube.com/watch?v=rRMaQXIfngM&list=PLlH6o4fAIji6FEsjFeo7gRgiwhPUkJ4ap
+
+step 1: 
+
+https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX
+
+flask step by step tutorial:
+
+https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH
+
+step2:
+
+https://www.google.com/search?q=beginner+flask+tutorial&rlz=1C1GCEU_enUS872US872&oq=beginener+flask+tu&aqs=chrome.1.69i57j0l3.8770j0j8&sourceid=chrome&ie=UTF-8#kpvalbx=_Qd4dXtmcCIaRggfe3pvYAg34
+
+step3:
+
+https://www.youtube.com/watch?v=Z1RJmh_OqeA
+https://www.youtube.com/watch?v=zXBvfsg4MXY&list=PLlH6o4fAIji6FEsjFeo7gRgiwhPUkJ4ap&index=23
+
+
+step 4:
+
+Krish Naik deployment series:
+
+https://www.youtube.com/watch?v=bjsJOl8gz5k&list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1
+step4:
+https://pythonprogramming.net/practical-flask-introduction/
+	
+
+How to deploy machine learning models into production
+
+https://www.youtube.com/watch?v=-UYyyeYJAoQ
+
+https://www.youtube.com/results?search_query=flask+step+by+step+tutorial
+
+
+
+python for database programming
+
+https://www.youtube.com/results?search_query=python+for+database+programming
+
+ODBC
+
+https://www.youtube.com/watch?v=aF552bMEcO4
+
+
+Good read
+Part 1
+https://towardsdatascience.com/being-a-data-scientist-does-not-make-you-a-software-engineer-c64081526372
+Part 2
+https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7
+
+https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-resources-get-started/
+https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
+
+good over all ---concepts of auto.sklearn/ imputer etc. 
+https://www.youtube.com/watch?v=SH5nlNY5cO4
+Deployment
+https://www.youtube.com/watch?v=wF_sB_OnCfk
+
+
+Deploy ML in Cloud:
+
+https://www.youtube.com/watch?v=rRMaQXIfngM&list=PLlH6o4fAIji6FEsjFeo7gRgiwhPUkJ4ap
+
+
+port number: https://www.youtube.com/watch?v=MJ6KHXZH2YQ
+
+https://www.youtube.com/watch?v=Vs4nHQf5zcg
+
+
+Flask Tutorial point
+
+https://www.tutorialspoint.com/flask/flask_http_methods.htm
+
+https://www.youtube.com/watch?v=s_ht4AKnWZg
+
+Pretty Printed
+
+https://www.youtube.com/watch?v=_5OXmXvkU_E
+
+Rest API Flask
+
+https://www.youtube.com/watch?v=yh-28ksEXwY&list=PLNrnt5k3GHOO8kB6vKenpAWvZuvVQiHro

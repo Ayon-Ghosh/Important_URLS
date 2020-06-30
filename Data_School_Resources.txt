@@ -1,0 +1,11 @@
+All Data school codes:
+https://www.dataschool.io/start/
+
+Dimensionality reduction without PCA:
+
+https://stackoverflow.com/questions/29294983/how-to-calculate-correlation-between-all-columns-and-remove-highly-correlated-on
+
+
+Label encoding for mutiple categorical columns
+
+https://towardsdatascience.com/encoding-categorical-features-21a2651a065c

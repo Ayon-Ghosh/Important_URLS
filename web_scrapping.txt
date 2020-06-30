@@ -1,0 +1,3 @@
+beautiful soup
+
+https://medium.com/@raiyanquaium/how-to-web-scrape-using-beautiful-soup-in-python-without-running-into-http-error-403-554875e5abed

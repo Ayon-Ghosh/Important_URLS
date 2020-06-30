@@ -1,0 +1,7 @@
+polynomial regressiobn
+
+https://www.youtube.com/watch?v=n4eV0INQwjI
+
+Ridge Regression
+
+https://www.youtube.com/watch?v=gryKjGVgzc4

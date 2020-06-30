@@ -1,0 +1,92 @@
+statinfer analytics
+
+https://www.youtube.com/channel/UClGknwbtv3sRsVaHmssa2mg
+
+krish Naik:
+https://www.youtube.com/watch?v=EqRsD3gqeCo&list=PLZoTAELRMXVOnN_g96ayzXX5i7RRO0QhL
+
+Andrew Ng:
+https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg
+
+Another Machine Learning series: Code Heroku
+
+https://www.youtube.com/watch?v=VAOx84gnsCQ&list=PLYU7hR8tUkqRWCeTUjHDHfYwGGOQXHGHt
+
+https://github.com/codeheroku/Introduction-to-Machine-Learning/tree/master/Building%20a%20Movie%20Recommendation%20Engine
+
+Data School
+
+What is machine learning, and how does it work?
+https://www.youtube.com/watch?v=elojMnjn4kk&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A
+
+how to use pandas in partnership with scikit learn
+
+https://www.youtube.com/watch?v=ylRlGCtAtiE&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=22
+
+Handle Missing data in Pandas
+
+https://www.youtube.com/watch?v=EaGbS7eWSs0
+
+Machine Learning Youtube:
+Data School Youtube
+https://www.youtube.com/watch?v=elojMnjn4kk&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A
+
+Codebasics Youtube
+
+https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
+
+https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/
+
+random state: 
+https://www.youtube.com/watch?v=c249O4giblM
+
+Data school code support
+
+https://www.dataschool.io/how-to-update-your-scikit-learn-code-for-2018/
+
+dimension_reduction 
+
+https://www.youtube.com/watch?v=YaKMeAlHgqQ
+
+dummy variable 
+
+https://www.youtube.com/watch?v=0s_1IsROgDc
+
+as type category, memory usage, and logical categoryies
+
+https://www.youtube.com/watch?v=wDYDYGyN_cw
+
+
+
+
+
+logistic regression
+
+https://www.youtube.com/watch?v=yIYKR4sgzI8
+
+lineaer regression:
+
+https://www.youtube.com/watch?v=nk2CQITm_eo
+
+
+
+Machine Learning series:
+
+https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF
+
+https://www.edureka.co/blog/python-tutorial/?utm_source=lms&utm_medium=python&utm_campaign=python-tutorial-181218
+
+
+https://learning.edureka.co/classroom/presentation/574/5909/99968?tab=CourseContent
+
+
+PCA and LDA:
+
+https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+
+https://towardsdatascience.com/logistic-regression-using-python-sklearn-numpy-mnist-handwriting-recognition-matplotlib-a6b31e2b166a
+https://github.com/mGalarnyk/Python_Tutorials/blob/master/Sklearn/PCA/PCA_Data_Visualization_Iris_Dataset_Blog.ipynb
+
+SVM - Hyperparameters
+
+https://stackoverflow.com/questions/26337403/what-is-a-good-range-of-values-for-the-svm-svc-hyperparameters-to-be-explored

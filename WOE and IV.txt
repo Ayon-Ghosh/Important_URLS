@@ -1,0 +1,22 @@
+Basic Binning - panda:
+
+https://www.youtube.com/watch?v=mDgL3Pp1IMw
+
+cut Vs qcut:
+
+https://stackoverflow.com/questions/30211923/what-is-the-difference-between-pandas-qcut-and-pandas-cut
+
+Attribute Relevance Analysis
+--> 	WOE and IV
+
+basics
+https://medium.com/@sundarstyles89/weight-of-evidence-and-information-value-using-python-6f05072e83eb
+
+more details:
+
+https://towardsdatascience.com/attribute-relevance-analysis-in-python-iv-and-woe-b5651443fc04
+
+video
+
+https://www.youtube.com/watch?v=XVjq45YSjsY
+https://www.youtube.com/watch?v=MvtAmVxtMlY
