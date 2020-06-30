@@ -1,0 +1,50 @@
+https://canvas.instructure.com/courses/1833347
+
+feature eng: https://github.com/krishnaik06/Feature-Engineering
+
+skype: support@ineuron.ai
+
+
+pandas set row option:
+
+https://stackoverflow.com/questions/57860775/pandas-pd-options-display-max-rows-not-working-as-expected
+complete machine learning playlist
+
+pay for live projects Rs 59/- to krish naik
+
+https://websrapper-review-ag.herokuapp.com/
+
+https://towardsdatascience.com/custom-transformers-and-ml-data-pipelines-with-python-20ea2a7adb65
+https://ramhiser.com/post/2018-04-16-building-scikit-learn-pipeline-with-pandas-dataframe/
+
+https://towardsdatascience.com/custom-transformers-and-ml-data-pipelines-with-python-20ea2a7adb65
+https://www.kaggle.com/harlfoxem/housesalesprediction#kc_house_data.csv
+https://www.kaggle.com/abhishm/titanic-with-sklearn-pipeline
+
+https://www.kaggle.com/jbanerje/heart-disease-detailed-investigation
+
+
+https://github.com/pratos/flask_api/blob/master/notebooks/ML%2BModels%2Bas%2BAPIs%2Busing%2BFlask.md
+
+set 1:
+
+https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory
+https://stackoverflow.com/questions/34667282/numpy-where-detailed-step-by-step-explanation-examples
+https://github.com/krishnaik06/Advanced-House-Price-Prediction-
+
+set 2:
+https://www.kaggle.com/jbanerje/heart-disease-detailed-investigation/log
+https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0
+https://github.com/andilabs/titanic-flask-sklearn
+https://stackoverflow.com/questions/14694501/delete-a-subplot
+https://seaborn.pydata.org/generated/seaborn.countplot.html
+https://towardsdatascience.com/hands-on-python-data-visualization-seaborn-count-plot-90e823599012
+https://cmdlinetips.com/2018/03/how-to-make-boxplots-in-python-with-pandas-and-seaborn/
+
+set 3:
+
+https://github.com/krishnaik06/Advanced-House-Price-Prediction-/blob/master/Exploratory%20Data%20Analysis%20Part%201.ipynb
+https://github.com/krishnaik06/Advanced-House-Price-Prediction-/blob/master/Feature%20Engineering.ipynb
+https://github.com/krishnaik06/Advanced-House-Price-Prediction-/blob/master/Feature%20Selection.ipynb
+https://stackoverflow.com/questions/75440/how-do-i-get-the-string-with-name-of-a-class
+ 
