@@ -1,0 +1,71 @@
+AyonAppTest@gmail.com
+Stock_companion_Lex
+
+config File:
+
+https://www.youtube.com/watch?v=Gdw0-QGq-z0
+
+FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  from pandas.util.testing import assert_frame_equal
+
+AYON_TEST_EMAIL
+AYON_TEST_EMAIL_PASS
+
+https://www.youtube.com/watch?v=sN-0aWGuAAc&list=PLmQAMKHKeLZ-MKK26WC9H2HCEr4Iffdhw
+
+https://stackoverflow.com/questions/38536453/find-rolling-52-week-high-on-daily-stock-market-data-in-pandas
+
+https://towardsdatascience.com/build-a-simple-chatbot-with-python-and-google-search-c000aa3f73f0
+
+ https://www.youtube.com/watch?v=H94xraECRQ4&list=PLmQAMKHKeLZ-MKK26WC9H2HCEr4Iffdhw&index=6 	
+
+
+https://towardsdatascience.com/using-python-to-get-robinhood-data-2c95c6e4edc8
+
+C:\ProgramData\Anaconda3\envs\RASA_Weather_location_bot
+
+
+	
+https://www.youtube.com/watch?v=JtUIQz_EkUw
+
+
+ C:\Users\140524\.conda\envs\weather_locaton_bot
+
+
+api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
+
+api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={your api key}
+
+api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={your api key}
+
+
+cityLocation
+
+Weather
+
+
+weatherlocationchatbot
+
+https://weatherlocationchatbot.herokuapp.com/
+
+https://weatherlocationchatbot.herokuapp.com/
+
+    if display_intent == 'Weather':
+        speech = "Today the weather in " + city + ": \n" + "Humidity :" + humidity + ".\n Wind Speed :" + wind_speed
+    else:
+        speech = "The latitude and longitude of " + city + ": \n" + "Latitude :" + lat + ".\n Longitude :" + lon
+
+
+03f2064e64b092e3eeb775c259980a33
+
+C:\ProgramData\Anaconda3\envs\web_scrapper_heroku
+
+.idea
+
+
+pip install rasa-x -i https://pypi.rasa.com/simple
+
+weatherlocationbot
+https://weatherlocationbot.herokuapp.com/
+
+

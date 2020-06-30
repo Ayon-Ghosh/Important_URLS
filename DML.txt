@@ -1,0 +1,208 @@
+DML
+
+insert/update/delete/select
+
+Insert:
+
+Insert into <table_name> (column_name1, column_name2,...) values(value1, value2,....)
+
+example: insert into dept (dept no, dept_name) values(20, hr);
+
+if we want to insert values in all columns then no need to specify column names, but the order of the column values should be in sync with the column names
+
+example: insert into dept values(20, hr);
+
+to view the data, ---> right click on table name--> select top 100 rows
+
+Note: for string or char data we need to enclose them in single string
+
+insert as select statement
+
+Insert-as-select statement allows to insert into a table using the input from another table. Record from one table will be inserted into another table
+
+insert INTO table_name (column_names)
+select column_names
+from table_name
+where condition
+
+example: insert into <table_name> (select * from <table_name from which u want to copy data> where emp_id>100)
+
+
+Update:
+
+Update statement updates/ modify the existing data in the tables. Using these statements we can update the value of the single column or multiple columns in a single statement
+
+Updating single column:
+
+update <table_name> Set <field_name> = <value> where <condition>
+
+example: update emp Set first_name = 'ayon', where emp_id=20
+
+Note: without where clause all the rows will be updated, while updating more than one column, the column must be separated by a comma separator.
+
+Updating multiple columns
+
+update <table_name> Set column_name1 = value, column_name2= value, where condition
+
+
+Delete:
+
+Delete commands helps delete records/ rows from the database table. Delete statements can be executed with or without where conditions. Execution of delete command without where condition will remove all the records / rows from the table.
+
+syntax: delete all rows - without where condition
+
+example: delete from <table_name>
+
+syntax: conditional deletion - delete with where condition
+
+example: delete from table_name where loc = 'pink city'
+
+
+
+select: 
+
+These statement is used to retrieve records from table
+
+where condition is optional, various operators can be used in where conditions to retrieve data
+
+syntax: to select the whole table: select* from <table_name>
+
+to select selected columns:
+
+select <column_name1, column_name2,...> from <table_name> where <condition>
+
+or getting top 3 records of selected columns
+
+select top(3) <column_name1>,<column_name2> from <table_name>. 
+
+Note: There is no reserved keywords for bottom. The way to retrive buttom is to do a order by desc
+
+Alias name for a column or a table
+
+To increase readability we use alias name of columns or even table
+
+syntax: select column_name1, column_name2 as <new_column2_name> from <table_name>
+
+example select std_id as student_id, first_name from student
+
+we can use alias for as many columns required in a single statement
+
+Distint values:
+
+Only columns/ fields with constraints on primary and unique key will have distint/ unique values. The rest of the fields/ columns may have non unique repeatable values
+In order to retrieve only the unique values from columns/ fields which are non unique (not primary, not unique) we use distint keyword in the select statement
+
+select distinct <column_name1> from <table_name>;
+
+
+OrderBy: used along with where clause to display the specified column in ascending or descending order// default is descending order
+
+syntax: select <column_name1, column_name2> from <table_name> where condition orderby columns [asc/desc]
+
+or with distint values
+
+select distinct <column_name1, column_name2> from <table_name> where condition orderby columns [asc/desc]
+
+examples:
+
+select * from dept order by deptno 
+select * from dept order by deptno asc
+
+
+
+
+using key word - top to select top 3 rows
+
+select top(3) from <table_name>
+
+viewing the bottom 2 records --- select top (2) from dept order by deptno desc
+
+
+Filtering using logical operators:
+
+Logical operators (AND, OR, NOT) used in where conditions to join more than 2 queries. Used to combine the results of 2 or more conditions to produce  single result
+
+AND logical operator - used to combine 2 conditions and it fetches the result that satisfy both the conditions.
+
+example: select first_name, last_name from employee where first_name = 'ayon' AND last_name = 'ghosh';
+
+example: select first_name, last_name, salary from employee where salary > 2000 and salary< 5000;
+
+Logical operator OR
+
+OR operator is used to combine 2 or more conditions and it fetches the result which satisfy any one of the conditions in OR statement
+
+example: select * from dept where deptno = 10 or dept_name = 'hr'
+
+Logical operator NOT
+
+Not operators is used to negate the conditions and it fetches opposite of the result which satisfy the conditions. it is used in conjunction with other key words such as NOT IN, NOT BETWEEN etc.
+
+example: select dept_name, loc from dept where loc not in ('usa','uk');
+
+
+Filtering with Comparison operators
+
+comparision operators (=,!=,<>,>=,<=, like, between, in): comparision operators are used in where condition to fetch results from table
+
+between operator is used to search for values that are within a set of values
+
+example: select first_name, last_name, salary from employee where salary bwteeen 2000 and 5000;
+
+like operator is used to perform wild card searches of valid search string values
+#  search conditions can contain either characters or numbers
+#  % denotes zero or many characters
+#  _ denotes one character
+
+examples: select dept_name, loc from dept where loc like 'c%'; 
+
+note: loc starts with c
+
+select dept_name, loc from dept where loc like '%c';
+
+note: loc ends with c
+
+select dept_name, loc from dept where loc like 'h%c';
+
+note:starts with h and ends with c
+
+select dept_name, loc from dept where loc like 'chen_ _ _';
+
+select dept_name, loc from dept where loc not like 'c%';
+
+
+In operator is used to fetch values from a set of literals. It is used to test whether or not a value is 'in' the list of values provided after the keyword In. The In condition can be used with any data type in SQL. 
+
+The condition is generally used when we want to check/ fetch values from multiple values in single statment. 
+
+example: select first_name, last_name, salary from employee where job_id in ('j1','j2');
+
+Case Expression: If- then- else statement, Case is used to provide If- then- else logic to sql
+
+Note: You cannot use = with null values like: select * from employee where salary = null is wrong. It should be
+select * from employee where salary is null
+
+or
+
+select * from employee where salary is not null
+syntax: 
+
+CASE column name
+when condition1 then result1
+when condition2 then result2
+else result
+end
+
+example: 
+select case(loc) will select the loc column from the dept table
+
+select case(loc):
+when 'chennai' then 'TN'
+when 'delhi' then 'UP'
+else 'india'
+end
+
+
+#=========================assignmemt DML
+
+Insert into employee (emp_id, first_name,last_name,...) values(value1, value2,....)

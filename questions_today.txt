@@ -1,0 +1,5 @@
+questions1 : VS Code - when openned from start up it doesnt run and compile
+
+Question 2: Titanic data set pipeline and Grid search CV
+
+Question 3: Current VS code on titanic on single entry from flask

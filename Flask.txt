@@ -1,0 +1,167 @@
+Video 1
+
+export FLASK_APP = FILENAME.PY
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+from flask import flask
+app = Flask(__name__)
+
+@app.route('/')
+@app.route('/home')
+def home()
+   return <h1>hello world</h1>
+
+@app.route('/about')
+def about()
+   return <h1>about world</h1>
+
+
+if __name__ == '__main__':
+    app.run(debug = True)
+
+
+################################################
+video - 2
+Template
+
+from flask import flask
+app = Flask(__name__)
+
+@app.route('/')
+@app.route('/home')
+def home()
+   return <h1>hello world</h1>
+
+@app.route('/about')
+def about()
+   return <h1>about world</h1>
+
+
+if __name__ == '__main__':
+    app.run(debug = True)
+
+Create Templates folder ---
+
+2 files  - home.html and about.html
+
+from flask import flask, render_template
+app = Flask(__name__)
+
+posts = [
+{
+   'author': 'Ayon'
+   'title': 'blog posts'
+    'date': 'april 2020' 
+   'content':'first'
+}
+
+   'author': 'koyel'
+   'title': 'blog posts'
+   'content':'second'
+
+]
+
+@app.route('/')
+@app.route('/home')
+def home()
+   return render_template('home.html', posts = posts)
+
+@app.route('/about')
+def about()
+   return render_template('home.html', title = 'about')
+	
+
+if __name__ == '__main__':
+    app.run(debug = True)
+
+home.html
+
+<! DOCTYPE HTML>
+<html>
+<head>
+
+ {% if title %}
+   <title> Flask Blog - {{ title }} </title>
+ {% else %}
+  <title>Flask Blog</title>
+ {% endif %}
+</head>
+
+<body>
+   {% for post in posts%}
+      <h1> {{posts.title}} </h1>
+       <p1> by {{posts.author}} on {{posts.date}}</p1>
+       <p1> {{posts.content}} </p1>
+   {% endfor %}
+</body>
+</html>
+
+
+about.html
+
+<! DOCTYPE HTML>
+<html>
+<head>
+
+ {% if title %}
+   <title> Flask Blog - {{ title }} </title>
+ {% else %}
+  <title>Flask Blog</title>
+ {% endif %}
+</head>
+
+<body>
+   <h1> about page </h1>
+</body>
+</html>
+
+create a new template called layout.html so we can change the layout and the change will be applied to all the home and about pages
+
+layout.html
+
+<! DOCTYPE HTML>
+<html>
+<head>
+
+ {% if title %}
+   <title> Flask Blog - {{ title }} </title>
+ {% else %}
+  <title>Flask Blog</title>
+ {% endif %}
+</head>
+
+<body>
+   {% block content %}
+   {% end block %}
+</body>
+</html>
+
+so now the home.html will be
+
+
+
+{% extends 'layout.html' %}   
+{% block content %}
+
+   {% for post in posts%}
+      <h1> {{posts.title}} </h1>
+       <p1> by {{posts.author}} on {{posts.date}}</p1>
+       <p1> {{posts.content}} </p1>
+   {% endfor %}
+{% end block content %}
+
+
+so now the about.html will be
+
+<! DOCTYPE HTML>
+<html>
+<head>
+
+
+{% extends 'layout.html' %}   
+{% block content %}
+
+   <h1> about page </h1>
+
+{% end block content %}
+
+This is called template heritence

@@ -1,0 +1,80 @@
+Retreiving data from multiple tables
+
+A join clause is used to fetch data from 2 or more data tables, based on join condition. 
+A join clause combines rows from one (self-join) or more tables, based on a related columns between them
+
+type of joins:
+self join
+inner join
+left join
+right join
+full outer join
+cross join
+
+if we want to join rows based on conditions of a single table then it is called self join. 
+Cross join is also called as Cartesian join since it returns the Cartesian product of the sets of rows from the joined tables
+
+Self Join: 
+A table can be joined to itself using a self join
+
+syntax:
+select <column list> from <table_name1> t1 join <table_name1> t2 on t1.column_name = t2.column_name;
+note: t1, and t2 are alias for the each parts of the same table that u are joining
+
+
+
+Inner join/ simple join/ equi joins: T
+he inner join fetches records that have matching values in both tables
+
+syntax: select <column list> from <table_name1> t1 join <table_name2> t2 on t1.column_name = t2.column_name;
+
+example: select emp.emp_id, order.order_id, order.order_date from emp inner join orders on emp.emp_id = order.order_id order by emp.emp_id;
+
+using alias
+
+select e.emp_id, o.order_id, o.order_date from emp as e inner join orders as o e.emp.emp_id = o.order_id order by e.emp_id;
+
+another example: select t2.first_name, as FirstName, t1.dept_name as department from dept as t1 inner join emp as t2 on t1.dept_no = t2.dept_no;
+
+Note: returns only the matching columns and leave aside the null or mismatching data//order_by clause is optional. It will not return any null rows
+
+Left Outer Join:
+The left outer join return rows to the left t1  even if there are no rows to the right t2 of the join clause. The result is Null for rows on the right-th table when there is no match
+
+syntax: 
+select <column_list> from <table_name1> as t1 left out join <table_name2> as t2 on t1.column_name=t2.column_name;
+example: select emp.emp_id, order.order_id, order.order_date from emp left outer join orders on emp.emp_id = order.order_id order by emp.emp_id;
+
+another example: select t1.first_name as First_name, t2.dept_name as department from employee t1 left outer join dept t2 on t1.deptno = t2.deptno;
+
+Note: the left outer join select all the rows from the left even if the columns right to the join doesnt not have corresponding values to the left. In those it will return null values.
+
+In some databases left outer join is called left join - simply
+
+
+Right Outer join:
+The right outer join returns the rows to the right t2 of the join even if there is no matching rows to the left t2 of the join. The result is null for rows in the left table if there is no match
+
+syntax: select <column_list> from <table_name1> as t1 right outer join <table_name2> as t2 on t1.column_name = t2.column_name;
+
+
+Full OuterJoin or Full join:
+The full outer join keyword return all records when there is a match in either left t1 OR right t2 records.
+if there are match in t1 that dont have a match in t2 or vice versa these rows will be listed as well.
+
+syntx: select <column_list> from <table_name1> as t1 full outer join <table_name2> as t2 on t1.column_name = t2.column_name;
+
+Cross Join:
+Also known as cartersian product - returns all rows and all columns of both te tables.
+example of a output:
+
+table1: ayon, koyel 
+table2: it, hr
+
+output: ayon -hr, ayon -it, koyel -it, koyel-hr
+
+
+
+
+
+
